@@ -6,8 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Pulse Editor Documentation",
-  tagline:
-    "AI-powered editor for developers nad creators on any platform",
+  tagline: "AI-powered editor for developers nad creators on any platform",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -20,6 +19,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "claypulse", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
